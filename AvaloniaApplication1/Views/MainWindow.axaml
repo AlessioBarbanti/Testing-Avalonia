@@ -9,7 +9,6 @@
         Height="600">
 	<Canvas>
 		<Image x:Name="logo1" Source="/Assets/avalonia-logo.ico" Width="100" Height="100"/>
-		<Image x:Name="logo2" Source="/Assets/avalonia-logo.ico" Width="100" Height="100"/>
 	</Canvas>
 </Window>
 

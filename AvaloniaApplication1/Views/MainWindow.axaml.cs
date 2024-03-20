@@ -11,18 +11,14 @@ namespace AvaloniaApplication1.Views
     {
         private double _offsetX;
         private double _offsetY;
-        private Image _image1;
-        private Image _image2;
+        private Image _image;
 
         public MainWindow()
         {
             InitializeComponent();
-            _image1 = this.FindControl<Image>("logo1");
-            _image2 = this.FindControl<Image>("logo2");
-            _image1.PointerPressed += Image_PointerPressed;
-            _image2.PointerPressed += Image_PointerPressed;
-            _image1.PointerWheelChanged += Image_PointerWheelChanged;
-            _image2.PointerWheelChanged += Image_PointerWheelChanged;
+            _image = this.FindControl<Image>("logo1");
+            _image.PointerPressed += Image_PointerPressed;
+            _image.PointerWheelChanged += Image_PointerWheelChanged;
             Trace.WriteLine("Initialization ended!");
         }
 
